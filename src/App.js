@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Navbar />
       <Home />
-      <Skills />
+      <Skills className='ease-in duration-300' />
       <Work />
       <Contact />
     </>

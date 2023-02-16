@@ -50,7 +50,7 @@ const Work = () => {
       <div name="work" className=" h-[780px] m-5 pb-14 px-4 border-b-2 border-solid border-black relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})`, backgroundSize: '400px', backgroundRepeat: 'no-repeat' }}
-          className="w-full h-[60%] rounded-2xl bg-center duration-500"
+          className="w-full h-[60%] rounded-2xl bg-center duration-500 cursor-pointer"
         ></div>
         {/* Left Arrow */}
         <div className="hidden group-hover:block absolute top-[25%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
