@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div className="pt-12 text-center mx-10 m-5 pb-10 border-solid border-b-2 border-gray-400">
           <h2 className="text-3xl sm:text-4xl font-bold">Skills</h2>
-          <div className='pt-8 grid sm:grid-cols-4 sm:grid-rows-2 grid-cols-2 grid-rows-3 gap-5 ease-in duration-300'>
+          <div className='pt-8 grid sm:grid-cols-4 sm:grid-rows-2 grid-cols-2 grid-rows-3 gap-5'>
             <div name='skills'  className='flex flex-col m-5'>
               <img className='hover:saturate-200 cursor-pointer' src='https://github.com/fireclint/portfolio-app-react/blob/main/src/assets/html.png?raw=true' alt='' />
               <h3 className='text-3xl font-bold pt-5'>
