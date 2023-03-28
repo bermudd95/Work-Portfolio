@@ -25,7 +25,7 @@ const Home = () => {
                         </a>    
                     </span> you can take a look at my resume
                     <span className='pl-1 text-blue-400 hover:text-blue-500 cursor-pointer'>
-                        <a target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1_C44ohL1WuKsxn8sUt5F5j0kILuG_5gb/view?usp=share_link'>
+                        <a target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1kfUW7CewHpXndNMo7uR-0yYkJim8mMJd/view?usp=drivesdk'>
                             here
                         </a> 
                     </span>
