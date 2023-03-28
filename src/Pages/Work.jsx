@@ -93,22 +93,22 @@ const Work = () => {
           <div
             style={{
               backgroundImage:
-                "url(https://repository-images.githubusercontent.com/548457414/d0643b77-24df-4f47-b5cb-1f067f0569a9)",
+                "url(https://repository-images.githubusercontent.com/619047607/c16107b9-2259-467b-9893-7b865ef11f85)",
             }} 
             className='shadow-lg group container rounded-md flex justify-center items-center bg-cover bg-no-repeat mx-auto content-div'>
           
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-black tracking-wider'>
-                Snake remake
+                Cryptocurrency.io
               </span>
 						  <div>
-							  <a target='_blank' rel='noreferrer' href='https://bermudd95.github.io/Snake-app/'>
+							  <a target='_blank' rel='noreferrer' href='https://cryptocurrency-io.vercel.app'>
 								  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
 							  </a>
-                <a target='_blank' rel='noreferrer' href='https://github.com/bermudd95/Snake-app'>
+                <a target='_blank' rel='noreferrer' href='https://github.com/bermudd95/cryptocurrency.io'>
 								  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
