@@ -77,12 +77,12 @@ const Work = () => {
                 Movies.app
               </span>
 						  <div>
-							  <a target='_blank' rel='noreferrer' href='https://github.com/bermudd95/Movie-app'>
+							  <a target='_blank' rel='noreferrer' href='https://bermudd95.github.io/Movie-app/'>
 								  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
 							  </a>
-                <a target='_blank' rel='noreferrer' href='https://bermudd95.github.io/Movie-app/'>
+                <a target='_blank' rel='noreferrer' href='https://github.com/bermudd95/Movie-app'>
 								  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
