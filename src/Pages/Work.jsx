@@ -3,11 +3,11 @@ import React from 'react';
 
 const Work = () => {
   return (
-		<div className='w-full md:h-full'>
+		<div name="work" className='w-full md:h-full'>
 			<div className='max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-full'>
 				<div className='pb-8 text-center'>
 					<h2 className='text-3xl font-bold'>Projects</h2>
-					<h2 className='py-6'> Check out my most recent work.</h2>
+					<h2 className='text-lg font-semibold py-6'> Check out my most recent work.</h2>
 				</div>
 				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 					<div
