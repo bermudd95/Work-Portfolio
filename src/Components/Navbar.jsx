@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <div className='w-full h-[60px] flex justify-between items-center px-4 bg-slate-400'>
       <div>
-        <h1 className='text-3xl font-bold text-purple-700'>
-            Welcome
+        <h1 className='text-3xl font-bold text-white'>
+            Danny Bermudez
         </h1>
       </div>
 
