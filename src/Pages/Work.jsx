@@ -15,7 +15,7 @@ const Work = () => {
 							backgroundImage:
 								"url(https://repository-images.githubusercontent.com/631439095/42073932-1ae0-4cd1-a1c0-10c71a3ee60e)",
 						}}
-						className='shadow-lg group container rounded-md flex justify-center items-center bg-cover bg-no-repeat mx-auto content-div'
+						className='shadow-lg group container rounded-md flex justify-center items-center bg-cover bg-no-repeat mx-auto content-div w-screen'
 					>
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>

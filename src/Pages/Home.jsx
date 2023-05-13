@@ -6,14 +6,13 @@ const Home = () => {
 		<>
 			<div id='background' className='w-screen'>
 				<div className='absolute right-[25%] top-[25%] text-xl font-bold flex'>
-					<GoLocation/> 
-					<p className='pl-2'>
-						Seattle, WA
-					</p>	
+					<GoLocation />
+					<p className='pl-2'>Seattle, WA</p>
 				</div>
-				
+
 				<img
-					id="backgroundImage"
+					id='backgroundImage'
+					loading='lazy'
 					src={
 						"https://images.unsplash.com/photo-1589481169991-40ee02888551?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2VhdHRsZXxlbnwwfHwwfHw%3D&auto=format&q=60"
 					}
@@ -22,7 +21,7 @@ const Home = () => {
 			</div>
 			<div
 				name='about'
-				className='mx-9 pt-[5rem] border-solid border-b-2 border-gray-500'
+				className='mx-9 pt-[5rem] border-solid border-b-2 border-gray-500 transition ease-in duration-300'
 			>
 				<h2 className='text-4xl text-center font-bold text-blue-600 pb-10'>
 					Front End Developer
