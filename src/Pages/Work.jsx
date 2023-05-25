@@ -3,24 +3,27 @@ import React from 'react';
 
 const Work = () => {
   return (
-		<div name="work" className='w-full md:h-full'>
+		<div name='work' className='w-full md:h-full'>
 			<div className='max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-full'>
 				<div className='pb-8 text-center'>
 					<h2 className='text-3xl font-bold'>Projects</h2>
-					<h2 className='text-lg font-semibold py-6'> Check out my most recent work.</h2>
+					<h2 className='text-lg font-semibold py-6'>
+						{" "}
+						Check out my most recent work.
+					</h2>
 				</div>
-				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+				<div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
 					<div
 						style={{
 							backgroundImage:
 								"url(https://repository-images.githubusercontent.com/631439095/42073932-1ae0-4cd1-a1c0-10c71a3ee60e)",
 						}}
-						className='shadow-lg group container rounded-md flex justify-center items-center bg-cover bg-no-repeat mx-auto content-div w-screen'
+						className='shadow-lg group container rounded-md flex justify-center items-center bg-cover bg-no-repeat mx-auto content-div'
 					>
 						<div className='opacity-0 group-hover:opacity-100'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
+							<h2 className='text-2xl font-bold text-white tracking-wider'>
 								Desktop Productivity App
-							</span>
+							</h2>
 							<div>
 								<a
 									target='_blank'

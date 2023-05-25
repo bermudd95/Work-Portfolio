@@ -1,4 +1,5 @@
 import React from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { GoLocation } from 'react-icons/go';
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
 					<p className='pl-2'>Seattle, WA</p>
 				</div>
 
-				<img
+				<LazyLoadImage
 					id='backgroundImage'
 					loading='lazy'
 					src={
