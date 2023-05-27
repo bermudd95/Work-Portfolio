@@ -3,7 +3,7 @@ import React from 'react'
 const Skills = () => {
   return (
 		<div className='py-10 text-center mx-9 my-5 border-solid border-b-2 border-gray-400'>
-			<div className='flex justify-evenly'>
+			<div className='grid grid-cols-3 grid-rows-2 gap-2 md:flex'>
 				<div name='skills' className='m-5'>
 					<img
 						className='hover:saturate-200'

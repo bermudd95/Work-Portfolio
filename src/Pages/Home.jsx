@@ -6,11 +6,6 @@ const Home = () => {
   return (
 		<>
 			<div id='background' className='w-screen'>
-				<div className='absolute right-[25%] top-[25%] text-xl font-bold flex'>
-					<GoLocation />
-					<p className='pl-2'>Seattle, WA</p>
-				</div>
-
 				<LazyLoadImage
 					id='backgroundImage'
 					loading='lazy'
